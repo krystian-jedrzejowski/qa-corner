@@ -47,6 +47,7 @@ docker-compose up -d
 
 Now your selenium grid is up and running. Follow link [localhost:4444](http://localhost:4444) or navigate directly to [grid console](http://localhost:4444/grid/console).
 
+More info can be found [here](https://github.com/SeleniumHQ/docker-selenium)
 ## Setup driver in your project to run tests on selenium grid
 **java**
 ```java
