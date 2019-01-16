@@ -1,4 +1,4 @@
-## Install docker compose
+## Install docker and docker compose
 An installation guide can be found under this link [docer compose](https://docs.docker.com/compose/install/)
 
 ## Dockerized selenium grid setup:
