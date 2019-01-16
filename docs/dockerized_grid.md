@@ -40,9 +40,13 @@ services:
 ``` 
 
 2. Run below command. Docker compose will download images and run services defined in yaml file.
-
 ```
 docker-compose up -d
+```
+
+To stop selenium grid and cleanup containers run:
+```
+docker-compose down
 ```
 
 Now your selenium grid is up and running. Follow link [localhost:4444](http://localhost:4444) or navigate directly to [grid console](http://localhost:4444/grid/console).
