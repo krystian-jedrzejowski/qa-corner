@@ -1,5 +1,5 @@
 ## Install docker and docker compose
-An installation guide can be found under this link [docer compose](https://docs.docker.com/compose/install/)
+An installation guide can be found under this link [docker compose](https://docs.docker.com/compose/install/)
 
 ## Dockerized selenium grid setup:
 1. Copy below content and save it in your project root directory as **docker-compose.yaml** file 
