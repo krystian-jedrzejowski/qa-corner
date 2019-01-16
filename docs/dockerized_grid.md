@@ -1,10 +1,7 @@
-#### Install docker compose
----
+## Install docker compose
 An installation guide can be found under this link [docer compose](https://docs.docker.com/compose/install/)
 
-#### Dockerized selenium grid setup:
----
-
+## Dockerized selenium grid setup:
 1. Copy below content and save it in your project root directory as **docker-compose.yaml** file 
 
 **docker-compose.yaml**
@@ -50,9 +47,7 @@ docker-compose up -d
 
 Now your selenium grid is up and running. Follow link [localhost:4444](http://localhost:4444) or navigate directly to [grid console](http://localhost:4444/grid/console).
 
-#### Setup driver in your project to run tests on selenium grid
----
-
+## Setup driver in your project to run tests on selenium grid
 **java**
 ```java
 DesiredCapabilities capability = DesiredCapabilities.chrome();
