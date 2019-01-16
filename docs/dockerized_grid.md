@@ -60,7 +60,6 @@ driver = new RemoteWebDriver(new URL(node), capability);
 **c#**
 ```csharp
 DesiredCapabilities capability = DesiredCapabilities.Chrome();
-cap.setBrowserName("chrome");
 string node = "http://localhost:4444/wd/hub";
 IWebDriver driver = new RemoteWebDriver(new Uri(node), capability, TimeSpan.FromSeconds(600));
 ```
