@@ -55,17 +55,16 @@ More info can be found [here](https://github.com/SeleniumHQ/docker-selenium)
 ## Setup driver in your project to run tests on selenium grid
 **java**
 ```java
-DesiredCapabilities capability = DesiredCapabilities.chrome();
-capability.setBrowserName("chrome");
+ChromeOptions chromeOptions = new ChromeOptions();
 String node = "http://localhost:4444/wd/hub";
-driver = new RemoteWebDriver(new URL(node), capability);
+WebDriver driver = new RemoteWebDriver(new URL(node), chromeOptions);
 ```
 
 **c#**
 ```csharp
-DesiredCapabilities capability = DesiredCapabilities.Chrome();
+ChromeOptions chromeOptions = new ChromeOptions();
 string node = "http://localhost:4444/wd/hub";
-IWebDriver driver = new RemoteWebDriver(new Uri(node), capability, TimeSpan.FromSeconds(600));
+IWebDriver = new RemoteWebDriver(new Uri(node), chromeOptions.ToCapabilities(), TimeSpan.FromSeconds(600));
 ```
 
 **ruby - capybara**
